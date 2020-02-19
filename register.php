@@ -1,3 +1,8 @@
+<?php
+
+$db=mysqli_connect("localhost","root","","mysite");
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
