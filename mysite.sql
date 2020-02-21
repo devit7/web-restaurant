@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 19, 2020 at 12:57 AM
+-- Generation Time: Feb 21, 2020 at 04:53 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.2
 
@@ -46,7 +46,9 @@ INSERT INTO `user` (`id`, `nama`, `username`, `password`, `alamat`, `no_hp`) VAL
 (2, 'bismo', 'bmo', '30mei', 'asfdsadfasf', '2342'),
 (3, 'bismo', 'bmo', '30mei', 'asfdsadfasf', '2342'),
 (4, 'bismo', 'bmo', '30mei', 'asfdsadfasf', '2342'),
-(5, 'adam', 'ad', 'embuh', 'asfdaf', '2352');
+(5, 'adam', 'ad', 'embuh', 'asfdaf', '2352'),
+(6, 'salman', 'sl', 'embuh', 'asdsaf', '324'),
+(7, 'bhismo', '18273645', '18273645', 'jombang', '08113636518');
 
 --
 -- Indexes for dumped tables
@@ -66,7 +68,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
