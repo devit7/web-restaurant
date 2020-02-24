@@ -9,7 +9,7 @@ if(!isset($_GET['username'])){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOKO USER</title>
+    <title>ADMIN</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <style type="text/css">
 @import "./css/index_user.css";
@@ -27,10 +27,7 @@ if(!isset($_GET['username'])){
         <a class="nav-link" href="#">MENU<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">MAKANAN</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="#">MINUMAN</a>
+        <a class="nav-link " href="insert.php">INSERT MAKANAN</a>
       </li>
     </ul>
   <a href="../index.php"><button type="button" class="btn btn btn-secondary">LOGOUT</button></a>
